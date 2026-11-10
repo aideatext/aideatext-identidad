@@ -12,7 +12,7 @@ diseñar una pantalla.
 ## 1. Reglas en una línea
 
 1. Fondo **papel cálido** `#fbf8f3`, nunca blanco puro. Texto **tinta** `#16202b`, nunca negro puro.
-2. Titulares en **Fraunces**, texto en **IBM Plex Sans**, código y datos en **IBM Plex Mono**. Ninguna otra letra.
+2. Titulares en **Fraunces**, texto en **IBM Plex Sans**, código y datos en **IBM Plex Mono**. Ninguna otra letra: en el CSS se escribe siempre `var(--ait-serif)`, `var(--ait-sans)` o `var(--ait-mono)`, nunca el nombre de una fuente.
 3. Cabecera: **logotipo AIdeaText + sello NVIDIA Inception**, a la misma altura, a la izquierda; después el nombre del producto.
 4. Icono de pestaña: **la marca** (anillo + círculo rojo + dos azules) de este repo. Nunca el logotipo con letras reducido.
 5. Colores de acción: **azul** `#0b7ec5` (principal) y **rojo** `#ae0025` (secundaria o destacada). Son los dos colores del logotipo.
@@ -54,8 +54,8 @@ Todas están como variables `--ait-*` en `css/aideatext.css`.
 | `logos/logo-aideatext.png` (156 px) | cabecera de cualquier página |
 | `logos/logo-aideatext-300.png` | impresos, presentaciones |
 | `logos/nvidia-inception-color.svg` | sello NVIDIA Inception, siempre junto al logotipo |
-| `iconos/favicon.svg` | icono de pestaña (declarar sólo este) |
-| `iconos/favicon.ico` | en la raíz del sitio, sin declararlo |
+| `iconos/favicon.svg` | icono de pestaña (declarar primero) |
+| `iconos/favicon.ico` | en la raíz del sitio, declarado como `alternate icon` |
 | `iconos/apple-touch-icon.png` (180 px) | iOS |
 | `iconos/icon-192.png`, `icon-512.png`, `icon-maskable-512.png` | manifest (Android, instalar como app) |
 | `iconos/site.webmanifest.ejemplo` | plantilla del manifest |
@@ -65,6 +65,7 @@ Bloque `<head>` estándar:
 ```html
 <meta name="theme-color" content="#fbf8f3" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="alternate icon" href="/favicon.ico" sizes="any" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="manifest" href="/site.webmanifest" />
 ```
