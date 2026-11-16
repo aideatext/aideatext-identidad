@@ -208,3 +208,36 @@
 .ait a.ait-boton.rojo:hover {
   background: #8a001d;
 }
+
+/* ── Pie de página (IDENTIDAD.md §9) ─────────────────────────────────────
+ * Aviso legal de AIdeaText y, debajo, el de NVIDIA. Nada más: lo que ya está
+ * en la cabecera no se repite aquí.
+ *
+ * <footer class="ait-pie">
+ *   <p class="ait-legal">AIdeaText es una marca registrada …</p>
+ *   <p class="ait-nvidia">NVIDIA, the NVIDIA logo …</p>
+ * </footer>
+ */
+.ait-pie {
+  padding: 1rem clamp(1rem, 3vw, 2rem);
+  border-top: 1px solid var(--ait-borde);
+  background: var(--ait-panel);
+  color: var(--ait-tinta-suave);
+  font: 400 0.78rem/1.55 var(--ait-sans);
+  text-align: center;
+}
+.ait-pie p {
+  max-width: 52rem;
+  margin: 0 auto;
+}
+.ait-pie p + p {
+  margin-top: 0.4rem;
+}
+.ait-pie a {
+  color: var(--ait-azul-hondo);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.ait-pie .ait-nvidia {
+  font-size: 0.7rem;
+}

@@ -73,7 +73,8 @@ Bloque `<head>` estándar:
 **Sello NVIDIA:** debe acompañar siempre al logotipo de AIdeaText en la
 cabecera, con el mismo alto. En el pie, el aviso: «NVIDIA, the NVIDIA logo
 and NVIDIA Inception are trademarks and/or registered trademarks of NVIDIA
-Corporation in the U.S. and other countries.»
+Corporation in the U.S. and other countries.» Va **después** del aviso legal
+de AIdeaText (§9).
 
 ## 5. Cabecera
 
@@ -124,3 +125,33 @@ archivos) sube a `v2`; arreglos compatibles mueven la etiqueta `v1`.
 | https://context.aideatext.ai | aideatext/conText-HackTheAndes |
 | https://aidesk.aideatext.ai | aideatext/aideatext-desk |
 | https://ssa.aideatext.ai | aideatext/simulation-strategy-agents |
+| https://cnpie-2027.aideatext.ai y https://concursa.aideatext.ai | aideatext/aideatext-con-curso |
+
+## 9. Pie de página (obligatorio en toda página pública)
+
+El pie lleva, en este orden y nada más:
+
+1. **Aviso legal de AIdeaText**, literal:
+
+   > AIdeaText es una marca registrada en Ciudad de México, México, y gestionada
+   > por la empresa ETAITE SAS. Nicolás San Juan 806, Narvarte Poniente, Benito
+   > Juárez, C.P. 03020. Contacto: hello@aideatext.ai. Teléfono: +52 55 9387 4260.
+
+   El correo y el teléfono van como enlaces (`mailto:` y `tel:+525593874260`).
+2. **Aviso de marca de NVIDIA** (§4), debajo.
+
+Reglas:
+
+- **Sin redundancias.** Lo que ya está en la cabecera («Quiénes somos»,
+  «Gracias», el nombre del producto) no se repite en el pie.
+- Fondo panel, filete superior `--ait-borde`, texto `--ait-tinta-suave` a
+  0,78 rem. Contraste mínimo 4,5:1: no se atenúa con opacidad.
+- Marcado y clases: `.ait-pie` en `css/aideatext.css`; ejemplo en
+  `ejemplos/pie.html`.
+
+## 10. Voz
+
+- Se dice lo que el producto **hace**, en positivo. Se evita construir los
+  mensajes con «no» («no guardamos» → «se borra al terminar»; «no es oficial»
+  → «herramienta independiente»).
+- Al docente se le habla de usted.
