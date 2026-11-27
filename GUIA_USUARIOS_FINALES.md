@@ -92,10 +92,13 @@ individuales, en Meta (Facebook e Instagram), WhatsApp y material impreso.
 
 ## 6. Material impreso
 
-- Sigue la identidad gráfica ([IDENTIDAD.md](IDENTIDAD.md)): fondo
-  papel `#fbf8f3`, tinta `#16202b`, azul `#0b7ec5`, rojo `#ae0025`,
-  titulares en Fraunces, texto en IBM Plex Sans. Para leerse a distancia
-  se usa tamaño y contraste, no un fondo oscuro completo.
+- Sigue la identidad gráfica ([IDENTIDAD.md](IDENTIDAD.md)) y las reglas
+  de [PUBLICACION_IMPRESA_Y_EN_LINEA.md](PUBLICACION_IMPRESA_Y_EN_LINEA.md)
+  §2: papel blanco, márgenes de 12 mm, titulares en Fraunces, texto en
+  IBM Plex Sans. Para leerse a distancia se usa tamaño y contraste, no un
+  fondo oscuro completo. Cada pieza se prepara en cuatro versiones: a
+  color, duotono, escala de grises y blanco y negro, en ese orden en el
+  mismo PDF.
 - Logotipo AIdeaText + sello NVIDIA Inception en la cabecera, al mismo
   alto; pie de marca de NVIDIA cuando aparece el sello.
 - Un solo gancho, un solo QR (a conText o al WhatsApp de inscripción) y
