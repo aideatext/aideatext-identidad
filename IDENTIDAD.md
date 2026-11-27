@@ -155,3 +155,11 @@ Reglas:
   mensajes con «no» («no guardamos» → «se borra al terminar»; «no es oficial»
   → «herramienta independiente»).
 - Al docente se le habla de usted.
+- A usuarios finales (estudiantes universitarios, tesistas, investigadores
+  y abogados individuales, mayores de 18 años) se les habla de **tú**, en
+  Meta, WhatsApp e impresos. Ver
+  [GUIA_USUARIOS_FINALES.md](GUIA_USUARIOS_FINALES.md) y
+  [GUIA_VOZ_AIDEATEXT.md](GUIA_VOZ_AIDEATEXT.md) §11.
+- El material impreso sigue la misma paleta: fondo papel `#fbf8f3`, nunca
+  un fondo oscuro completo; para leerse a distancia se usa tamaño y
+  contraste, no invertir el fondo.
